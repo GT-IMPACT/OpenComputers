@@ -31,7 +31,7 @@ file "build.properties" withReader {
     ext.config = new ConfigSlurper().parse prop
 }
 
-version = "${config.oc.version}"
+version = "${config.oc.version}-impact"
 group = "li.cil.oc"
 archivesBaseName = "OpenComputers"
 
